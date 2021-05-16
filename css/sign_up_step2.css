@@ -1,0 +1,182 @@
+@import url(font_def/style.css);
+@import url(sign_up_navbar/style.css);
+.sign_up_step2 {
+  padding-bottom: 50px; }
+  .sign_up_step2 .content_area {
+    max-width: 972px;
+    min-height: 635px;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    margin-top: 36px;
+    padding: 52px;
+    position: relative; }
+    .sign_up_step2 .content_area h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #001847; }
+    .sign_up_step2 .content_area p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #7D889C;
+      margin-top: 10px;
+      margin-bottom: 22px; }
+    .sign_up_step2 .content_area form {
+      margin-top: 28px; }
+      .sign_up_step2 .content_area form button {
+        margin: auto;
+        display: block;
+        background: #397CFF;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px;
+        margin-top: 9px;
+        max-width: 406px;
+        width: 100%;
+        border: 0;
+        text-decoration: none;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .sign_up_step2 .content_area form button:hover {
+        background: #001847; }
+    .sign_up_step2 .content_area .checkboxes {
+      max-width: 831px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .sign_up_step2 .content_area .checkboxes .customcheck {
+        flex: 1 0 192px;
+        max-width: 192px;
+        /* Hide the browser's default checkbox */
+        /* Create a custom checkbox */
+        /* Create the checkmark/indicator (hidden when not checked) */
+        /* Show the checkmark when checked */
+        /* Style the checkmark/indicator */ }
+        .sign_up_step2 .content_area .checkboxes .customcheck .container {
+          display: block;
+          position: relative;
+          margin-bottom: 20px;
+          padding-top: 18px;
+          cursor: pointer;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          width: 192px;
+          min-height: 103px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #000000; }
+          .sign_up_step2 .content_area .checkboxes .customcheck .container img {
+            display: block;
+            margin: auto;
+            margin-bottom: 5px; }
+        .sign_up_step2 .content_area .checkboxes .customcheck .container input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0; }
+        .sign_up_step2 .content_area .checkboxes .customcheck .checkmark {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          border: 1px solid rgba(0, 24, 71, 0.1);
+          border-radius: 10px;
+          -webkit-transition: background .25s ease;
+          -moz-transition: background .25s ease;
+          -ms-transition: background .25s ease;
+          -o-transition: background .25s ease;
+          transition: background .25s ease; }
+        .sign_up_step2 .content_area .checkboxes .customcheck .checkmark:hover {
+          background: rgba(0, 24, 71, 0.05); }
+        .sign_up_step2 .content_area .checkboxes .customcheck .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none; }
+        .sign_up_step2 .content_area .checkboxes .customcheck .container input:checked ~ .checkmark {
+          display: block;
+          border: 2px solid #397CFF; }
+        .sign_up_step2 .content_area .checkboxes .customcheck .container .checkmark:after {
+          left: 9px;
+          top: 5px;
+          width: 5px;
+          height: 10px; }
+
+@media (max-width: 1000px) {
+  .sign_up_step2 .content_area .checkboxes .customcheck {
+    flex: 1 0 170px;
+    max-width: 170px; }
+  .sign_up_step2 .content_area .checkboxes .customcheck .container {
+    max-width: 170px; } }
+
+@media (max-width: 860px) {
+  .sign_up_step2 .content_area {
+    padding-left: 25px;
+    padding-right: 25px; }
+  .sign_up_step2 .content_area .checkboxes .customcheck {
+    flex: 1 0 160px;
+    max-width: 160px;
+    margin-left: 4px;
+    margin-right: 4px; }
+  .sign_up_step2 .content_area .checkboxes {
+    justify-content: unset; }
+  .sign_up_step2 .content_area .checkboxes .customcheck .container {
+    max-width: 160px;
+    margin-bottom: 13px;
+    min-height: 95px;
+    padding-top: 14px; }
+  .sign_up_step2 .content_area form button {
+    max-width: 100%; } }
+
+@media (max-width: 590px) {
+  .sign_up_step2 .content_area {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    min-height: unset;
+    border-radius: 0; }
+  .sign_up_step2 .content_area .checkboxes .customcheck {
+    flex: 1 0 calc(33.33% - 8px);
+    max-width: calc(33.33% - 8px); }
+  .sign_up_step2 .content_area .checkboxes {
+    width: calc(100% + 8px);
+    margin-left: -4px; }
+  .sign_up_step2 .content_area .checkboxes .customcheck .container {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    min-height: 75px; }
+  .sign_up_step2 .content_area .checkboxes .customcheck .container img {
+    max-width: 26px;
+    margin-bottom: 5px; }
+  .sign_up_step2 .content_area h2 {
+    font-size: 24px;
+    line-height: 135%; }
+  .sign_up_step2 .content_area p {
+    font-size: 14px;
+    line-height: 21px; } }

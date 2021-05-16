@@ -1,0 +1,84 @@
+.sign_up_navbar {
+  padding-top: 49px; }
+  .sign_up_navbar img {
+    display: block;
+    max-width: auto;
+    max-width: 198px;
+    width: 100%;
+    margin: auto; }
+  .sign_up_navbar .complited_line:before {
+    content: '';
+    position: absolute;
+    width: 441px;
+    height: 2px;
+    background: #E9EBFB;
+    margin: auto;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 9px; }
+  .sign_up_navbar .complited_line {
+    max-width: 537px;
+    margin: auto;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    position: relative; }
+    .sign_up_navbar .complited_line .step .circle {
+      background: #E9EBFB;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      display: block;
+      margin: auto;
+      position: relative; }
+    .sign_up_navbar .complited_line .step .circle:after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      border-radius: 100%;
+      margin: auto;
+      display: block;
+      left: 0;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%); }
+    .sign_up_navbar .complited_line .step p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #001847;
+      margin-top: 6px; }
+    .sign_up_navbar .complited_line .active_step .circle {
+      background: #397CFF; }
+    .sign_up_navbar .complited_line .finished_step .circle {
+      background: #397CFF; }
+    .sign_up_navbar .complited_line .finished_step .circle:after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 7px;
+      background: transparent;
+      background: url(../../img/white_check.svg) no-repeat;
+      border-radius: 100%;
+      margin: auto;
+      display: block;
+      left: 0;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%); }
+
+@media (max-width: 590px) {
+  .sign_up_navbar .complited_line .step p {
+    font-size: 12px;
+    line-height: 18px; }
+    .sign_up_navbar .complited_line .step p span {
+      display: none; }
+  .sign_up_navbar .complited_line:before {
+    width: 210px; }
+  .sign_up_navbar .complited_line {
+    max-width: 280px; } }

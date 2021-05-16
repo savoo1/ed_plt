@@ -1,0 +1,236 @@
+@import url(font_def/style.css);
+@import url(sign_up_navbar/style.css);
+.sign_up_step3 {
+  padding-bottom: 50px; }
+  .sign_up_step3 .content_area {
+    max-width: 972px;
+    min-height: 635px;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    margin-top: 36px;
+    padding: 48px 498px 20px 60px;
+    position: relative; }
+    .sign_up_step3 .content_area h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #001847; }
+    .sign_up_step3 .content_area p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #7D889C;
+      margin-top: 3px;
+      margin-bottom: 22px; }
+    .sign_up_step3 .content_area form {
+      margin-top: -7px; }
+      .sign_up_step3 .content_area form .inputarea {
+        margin-bottom: 15px; }
+        .sign_up_step3 .content_area form .inputarea p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 19px;
+          color: #001847;
+          text-align: left;
+          padding-left: 1px;
+          margin: 0; }
+        .sign_up_step3 .content_area form .inputarea input {
+          border: 1px solid #E8EAFF;
+          border-radius: 5px;
+          font-size: 13px;
+          line-height: 19px;
+          color: #001847;
+          text-align: left;
+          display: block;
+          width: 100%;
+          margin: 0;
+          margin-top: 2px;
+          padding: 10px 10px 10px 35px;
+          background: #fff; }
+        .sign_up_step3 .content_area form .inputarea input:focus {
+          border-color: #397CFF; }
+        .sign_up_step3 .content_area form .inputarea .fullnamebg {
+          background: url("../img/profile.svg") #fff no-repeat 13px/13px; }
+        .sign_up_step3 .content_area form .inputarea .emailbg {
+          background: url("../img/emailbg.svg") #fff no-repeat 13px/13px; }
+        .sign_up_step3 .content_area form .inputarea .passwordbg {
+          background: url("../img/passwordbg.svg") #fff no-repeat 13px/13px; }
+      .sign_up_step3 .content_area form button {
+        margin: auto;
+        display: block;
+        background: #397CFF;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px;
+        margin-top: 21px;
+        width: 100%;
+        border: 0;
+        text-decoration: none;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .sign_up_step3 .content_area form button:hover {
+        background: #001847; }
+      .sign_up_step3 .content_area form .linkc a {
+        margin: auto;
+        display: block;
+        background: #fff;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #397CFF;
+        padding: 12px;
+        margin-top: 15px;
+        width: 100%;
+        border: 0;
+        border: 1px solid #397CFF;
+        text-decoration: none;
+        -webkit-transition: background .25s ease;
+        -moz-transition: background .25s ease;
+        -ms-transition: background .25s ease;
+        -o-transition: background .25s ease;
+        transition: background .25s ease; }
+        .sign_up_step3 .content_area form .linkc a svg {
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 5px; }
+          .sign_up_step3 .content_area form .linkc a svg .blue_c {
+            fill: #397CFF; }
+          .sign_up_step3 .content_area form .linkc a svg .color1 {
+            fill: #4285F4; }
+          .sign_up_step3 .content_area form .linkc a svg .color2 {
+            fill: #34A853; }
+          .sign_up_step3 .content_area form .linkc a svg .color3 {
+            fill: #FBBC05; }
+          .sign_up_step3 .content_area form .linkc a svg .color4 {
+            fill: #EB4335; }
+      .sign_up_step3 .content_area form .linkc a:hover {
+        background: #397CFF;
+        color: #fff;
+        opacity: 1; }
+        .sign_up_step3 .content_area form .linkc a:hover svg .blue_c {
+          fill: #fff; }
+        .sign_up_step3 .content_area form .linkc a:hover svg .color1, .sign_up_step3 .content_area form .linkc a:hover svg .color2, .sign_up_step3 .content_area form .linkc a:hover svg .color3, .sign_up_step3 .content_area form .linkc a:hover svg .color4 {
+          fill: #fff; }
+      .sign_up_step3 .content_area form .downp {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+        color: #7D889C;
+        margin-top: 22px; }
+        .sign_up_step3 .content_area form .downp a {
+          color: #397CFF;
+          text-decoration: none;
+          -webkit-transition: all .25s ease;
+          -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+          -o-transition: all .25s ease;
+          transition: all .25s ease; }
+        .sign_up_step3 .content_area form .downp a:hover {
+          opacity: 0.7; }
+    .sign_up_step3 .content_area .right_side_step3 {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      max-width: 438px;
+      background: url("../img/sign_up_bg2.svg"), linear-gradient(#397CFF 100%, #397CFF 100%);
+      border-radius: 0px 10px 10px 0px;
+      width: 100%;
+      padding: 54px 45px; }
+      .sign_up_step3 .content_area .right_side_step3 h2 {
+        color: #fff; }
+      .sign_up_step3 .content_area .right_side_step3 ul {
+        padding: 0;
+        margin: 0;
+        margin-top: 27px; }
+        .sign_up_step3 .content_area .right_side_step3 ul li {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 21px;
+          color: #FFFFFF;
+          padding-left: 46px;
+          position: relative;
+          list-style-type: none;
+          letter-spacing: 0.004rem;
+          margin-bottom: 24px; }
+          .sign_up_step3 .content_area .right_side_step3 ul li img {
+            position: absolute;
+            left: 9px;
+            top: 0; }
+
+@media (max-width: 1000px) {
+  .sign_up_step3 .content_area {
+    max-width: 850px;
+    padding-right: 410px; }
+  .sign_up_step3 .content_area .right_side_step3 {
+    max-width: 360px;
+    background: url(../img/sign_up_bg2.svg) center 10px no-repeat, linear-gradient(#397CFF 100%, #397CFF 100%); } }
+
+@media (max-width: 860px) {
+  .sign_up_step3 .content_area {
+    padding: 0;
+    background: transparent;
+    box-shadow: none; }
+  .sign_up_step3 .content_area .right_side_step3 {
+    position: relative;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 355px;
+    background: url(../img/sign_up_bg2.svg) no-repeat center -150px, linear-gradient(#397CFF 100%, #397CFF 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media (max-width: 590px) {
+  .sign_up_step3 .content_area h2 {
+    font-size: 24px;
+    line-height: 36px; }
+  .sign_up_step3 .content_area .right_side_step3 {
+    padding: 30px 20px;
+    padding-bottom: 170px;
+    background-position: right; }
+  .sign_up_step3 .content_area .right_side_step3 ul {
+    margin-top: 15px; }
+  .sign_up_step3 .content_area .right_side_step3 ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 135%;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto; }
+  .sign_up_step3 .content_area .right_side_step3 {
+    padding-bottom: 230px; }
+  .sign_up_step3 .content_area h2 {
+    font-size: 20px;
+    line-height: 30px; }
+  .sign_up_step3 .content_area .right_side_step3 ul li img {
+    left: 0; }
+  .sign_up_step3 .content_area .right_side_step3 ul li {
+    padding-left: 30px; } }
